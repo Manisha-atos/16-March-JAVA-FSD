@@ -1,0 +1,689 @@
+23 Mar 
+SDLC phases
+capstone project & Agile metho
+database
+front end 
+spring framework 
+
+Oracle installation 
+Oracle 10 G 
+sys and system
+Assessment after every module 
+passing 70 % 
+2 working Retest --- 70%
+
+softskill and technical trainings 
+
+seperation -- 
+
+attendance 
+
+primary key
+candidate --- eid,ename   candidate key 
+eid ---primary key
+ename --- alternate key 
+
+
+composite key (fn,ln)
+
+
+basic of database 
+normalization and de-normalization 
+
+24 Mar
+SQL --- 
+
+data retrival  
+DDL --create, alter,drop,rename
+DML-- insert,update,delete,merge
+DCL--  grant,revoke
+Transaction mgm -- commit, rollback
+
+select 
+selection 
+projection 
+join 
+
+where
+order by
+
+function 
+
+set operators
+union 
+union all
+intersect 
+minus
+emp--17
+test1--3
+
+round((today()- DOJ__c)/365,0)
+
+single row 		multiple row
+
+char
+numb
+date
+conversion 
+general
+
+day 3:
+sub queries
+1. deptno smith
+2. where 
+
+
+Multiple row subquery:
+in 
+in (1000,2000,3000)
+
+>all (1000,2000,3000) >max
+<all <min <1000
+>any >min >1000
+<any <max <3000
+
+1300,2459,8000
+
+
+DML
+
+transaction 
+firts DML begin 
+
+end 
+
+
+shut down autocommit 
+failuer autorollback
+commit or rollback 
+
+DDL   -- create, 
+alter --add column , drop column ,modify size, datatype,rename 
+, 
+drop, trunc,rename  are autocommit 
+char / varchar
+char(20)/varchar(20)
+123456.89564
+
+contraints
+
+rule 
+primary key -- uniqu not null
+unique key
+not null 
+check 
+foreign key constraint 
+
+user_constraints
+user_cons_columns
+
+create / alter add constr, drop constr 
+composite key 
+
+table level column level
+
+fname ,lname ,loc --- 
+
+day 4:
+2 primary key 
+not null
+alter --add , modify, drop, rename
+
+Joins
+Agile
+DDL 
+
+uniq+no=pk
+
+
+SDLC ---
+
+
+order module 
+payment --
+
+Agile
+
+		Joins (2 or more tables)
+
+inner join (match)	outer join (match+unmatch)
+
+= --- equi		left 
+non =			right
+self join 		full
+
+
+where 
+
+SQL 1999 standard
+
+natural join === equality join common column 
+col  name and data type same 
+
+
+
+emp deptno number, loc varchar2;
+natural join where emp.deptno=dept.deptno and emp.loc=dept.loc;
+dept deptno number ,loc varchar2;
+
+
+3 columns 
+
+using(deptno)
+
+
+RWD
+
+HTML5,CSS3, Bootstrap,JQuery,JS
+
+
+application 
+presentation --- user interact
+business logic
+datastore 
+
+validation rules 
+database 
+
+JS --scripting lang 
+
+RWD --- 
+
+CSS-- 
+external file.css
+inline style
+internal style sheet
+
+.--class selector
+# --id selector
+
+HTML
+basic html
+alerts 
+
+
+Java Script
+external java script .js
+internal 
+inline
+
+var, cont,let
+
+operato
+
+Object 
+DOM
+event 
+
+
+66
+ 
+EASY  12
+MEDIUM 12
+DIFFICULT 6 
+React JS
+
+Application 
+presentation layer --- Business logic ---data store
+
+
+index.js
+
+<App/>
+
+
+--Day 2:-----
+
+React JS --- UI view 
+1. client and server
+2. virtual DOM --- render(,)
+3. fast 
+
+JSX 
+
+functional  state 
+
+class 
+
+props 
+
+con ?true:false
+
+
+LDS 
+
+8 Mar Java 
+Software installation :
+
+jdk 1.8
+eclipse oxygen ,mars 
+tomcat 8, 9
+
+
+11 Mar Java 
+
+lang ,plat , enviro
+
+
+application 
+
+console app
+windows app
+mobile app
+
+
+JDK --- Java dev kit
+
+tools 		Lib
+
+
+Program 
+
+
+I-P-O
+
+J2SE ----  consol+win
+J2EE---  enterprise edition 
+J2ME  ---Mob app
+
+
+platform dependent
+
+.c-->complier-->MLL 0 and 1 
+
+syntax 
+
+platform indepent
+
+Test.java---->complier javac ---->intermediate language (Byte code) Hexa decimal Test.class
+
+JVM
+
+class loader (Test.class) 
+	|
+	|
+	|
+Bytecode verifier
+	|
+	|
+	|
+Native MLL
+
+
+	
+---->interpreter----> MLL
+
+
+Java ---platform indep
+
+JDK --platform depen	
+JVM --- execution 
+
+variable and constant
+data types 
+1.local variable block-- { }
+2.Instance variable -- instance variable{}
+3.static variable
+
+literal numerci and char
+x=100;
+name="Manisha";
+sal=234324.666;
+
+integer
+double
+
+
+indentifier;
+
+conditional program
+if 
+if else
+switch case 
+neted if else
+else if ladder
+
+13 Apr wed -agile
+15 Apr Friday-dbms
+18 Apr Monday --RWD and TDD
+19 Apr React 
+
+14   
+
+Jump label
+
+OOP
+-class and object 
+-encapsulation and abstraction
+-inheritance
+-polymorphism
+
+
+constr 
+-name same as class
+-never returns a value
+-may have arg or no arg
+-auto invoke when we create the object.
+
+package ;
+import
+import 
+class <>
+{
+}
+
+Day 3 
+
+	polymorphism
+
+compiletime 		runtime/VMI/DMD
+overlaoding		overriding
+method /constr 			1. inheritance
+with same			2.same name and same signature
+-signature
+-no of argu
+-data type of arg
+	
+
+void add(int x,int y)
+{
+}
+
+
+vargs
+this
+inheritance is -a , has -a 
+
+super-- const, overriden method , overriden attribute
+final  -- constant, no inhertain, no override
+static  
+access specifiers
+
+default -- with in the same pkg
+private -- with in the class 
+publilc --- with in 2 diff pkgs
+protected  ---- with in 2 diff pkgs but inheritanc e
+
+packages 
+
+
+Day 4
+abstract class and interface 
+
+Day 5 18 Apr
+exception handling 
+
+error 
+
+compile time error 
+logical error 
+runtime error 
+
+		Throwable
+
+	Exception 		Error
+
+checked		unchecked 
+(complie)	(execution)
+
+FileNotFoundEx	RuntimeException
+IOExce			Arra
+Interr Ex		Null
+ClassNotFE		Arith	
+SQlEx			InputMis
+			Number
+
+try ---catch ---finally
+
+jvm raise exe
+
+
+raise an exce   sys and user defined -- throw 
+
+nested classes
+class
+{
+private int x;	
+	class
+		{
+		}
+}
+
+class emp
+{
+empid ;
+ename;
+	class adr
+		{
+		city
+		state
+		country	
+
+
+no stat		static
+
+local inner 
+mem inner class
+ann inner class
+
+Collection :
+grp of objects
+array of objects
+
+Threads
+
+Main =parent 
+child 
+Class Thread 
+Runnable interface 
+
+
+public void run()
+{
+}
+
+sleep
+activeC
+isalive
+join  
+
+jdbc:oracle:thin:@localhost:1521:xe
+
+Statement
+PreparedStat
+CallableSta
+
+
+
+executeQuery()---sleect --RS
+executeUpdate()--dML,DDL --int
+execute()--- boolean true/ false 
+
+DB FE 
+
+Java 1.8 Features
+Java 8 Date/Time API
+Functional Interface 
+
+interface()
+{
+method();
+}
+
+static and default methodin interface 
+
+method reference
+
+
+Git --Version 
+local repo ---->staging area---remote repo
+
+git init
+git add . or test.txt or *.txt test.*
+git commit -m "msg"
+git commit -am "msg" ---
+
+git revert  commit id 
+
+git branch br1
+gir branch
+git checkout br1
+-- do cnahes and commit to br1
+-- merge with master
+git merge commit_id 
+
+
+
+
+
+
+
+
+
+
+
+Spring Day 2:
+dep object 
+ref 
+collection
+autowiring 
+no
+byType--- one instance 
+byName --- 
+byContr
+
+primitive type and String
+depe object 
+Collection 
+
+
+
+Day 3:
+def cons
+setter is called
+init method
+BL
+destroy 
+
+init 
+destroy 
+1.custom methods
+2.annotations
+3.prefefined interfaces
+
+next 10 mins plz summerize 
+
+Annotation 
+-- creat spring Bean Object  class 
+@Component
+@Repository  --- dao 
+@Service  ---- service 
+
+--Autowiring
+@Autowire
+@Qualifier
+
+--Lazy init 
+@Lazy
+@Required
+
+-- Java Class  
+@Configuration
+@Bean 
+
+meta data
+XML
+<bean><pro>.....
+
+annotation 
+.xml component   --- obj name is same as class name 
+
+Java Class
+
+@Config , @Bean --- obj name is same as method Name 
+
+
+JdbcTemplate   
+JPATemplate
+ORMTemplate
+
+
+REST API-- json or xml
+
+
+service --web service 
+
+REST API --
+
+http -- get post 
+
+get , post, delete,trace,put
+Spring Boot --spring +maven 
+Spring --- dependency 
+
+maven build tool
+
+pom 
+
+spring-- JSP
+rest api --- postman 
+
+Bill Desk --- payment 
+	netbanking  --divide small services MicroService 
+	credit card
+	debit card
+	gpay
+	paytm
+
+web service 
+Microservice SOLID princi
+Monolethic application
+SDLC --- 
+Agile --- incremental 
+
+online shopping 
+
+1010
+
+product1111   order2222   customer3333 
+jsp		spring     .net 
+
+addPr
+
+class EmpService
+{
+list l;
+void addEmpService(Emp e)
+{
+l.add(e);//add an emp
+}
+}
+
+swagger   ---spring boot test Rest API
+actuator --monitoring an application 
+
+
+1.Introduction to Microservice Architecture
+
+2.Difference in Monolithic / SOA / Microservice architecture
+
+3.Choreography vs Orchestration
+
+4.(Monolithic) Application decomposition
+
+5.Swagger for microservices development
+
+6.Actuator for microservices development
+
+7.12 Factor application development 
+
+8.Spring cloud -config Server & Client
+
+cloud ---  
+Microservice Spring
+Spring Cloud
+
+https://www.javawebtutor.com/articles/spring/configuring-static-resources-in-spring-mvc.php
+
+
+https://sindhitutorials.com/videos/spring-mvc-hibernate-maven/static-resources-spring-mvc-images-css-javase
